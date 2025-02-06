@@ -13,8 +13,9 @@ num = { version = "0.4", default-features = false }
 num-derive = { version = "0.4", default-features = false }
 num-traits = { version = "0.2", default-features = false }
 zbus = { version = "5.3", default-features = false, features = ["tokio"] }
-#modemmanager-sys = { git = "https://github.com/omnect/modemmanager-sys.git", features = ["zbus"], tag = "0.1.4" }
-modemmanager-sys = { git = "https://github.com/janzachmann/modemmanager-sys.git", features = ["zbus"], branch = "chore" }
+modemmanager-sys = { git = "https://github.com/omnect/modemmanager-sys.git", features = [
+  "zbus",
+], tag = "0.1.4" }
 
 [features]
 ModemManager-1_20 = []

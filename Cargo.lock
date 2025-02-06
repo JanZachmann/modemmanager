@@ -399,7 +399,7 @@ dependencies = [
 [[package]]
 name = "modemmanager-sys"
 version = "0.1.4"
-source = "git+https://github.com/janzachmann/modemmanager-sys.git?branch=chore#474a89bb82c77c8e8c7720ae7014875aba027ae2"
+source = "git+https://github.com/omnect/modemmanager-sys.git?tag=0.1.4#060a106e04ce344bfa1a0acdaa2a7642d4c40213"
 dependencies = [
  "bindgen",
  "num",
